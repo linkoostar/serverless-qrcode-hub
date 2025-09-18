@@ -22,3 +22,9 @@ crons = ["*/10 * * * * *"]
 [assets]
 directory = "./dist"
 binding = "ASSETS"
+
+
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
+
